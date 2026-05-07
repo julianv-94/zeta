@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-07T17:12:59.191Z",
+  "updatedAt": "2026-05-07T17:18:41.554Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -2278,6 +2278,79 @@
           "userAnswer": 166,
           "correct": true,
           "timeMs": 1784,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "roundId": "09b7e2fb-8428-4427-9b93-55d9380569dc",
+      "startedAt": "2026-05-07T17:18:13.952Z",
+      "endedAt": "2026-05-07T17:18:41.146Z",
+      "mode": "morning",
+      "subMode": "standard",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 5,
+        "correct": 5,
+        "accuracy": 1,
+        "problemsPerMin": 2.5,
+        "avgTimeMs": 2058.6
+      },
+      "attempts": [
+        {
+          "problemId": "42604549-4167-4b51-9921-8f44b2faba76",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "83 + 5",
+          "correctAnswer": 88,
+          "userAnswer": 88,
+          "correct": true,
+          "timeMs": 1519,
+          "tolerance": 0
+        },
+        {
+          "problemId": "06baf197-bcee-4d0a-950c-c7740366f0c6",
+          "drillType": "standard_div",
+          "subType": "div_clean",
+          "problemText": "160 / 2",
+          "correctAnswer": 80,
+          "userAnswer": 80,
+          "correct": true,
+          "timeMs": 1817,
+          "tolerance": 0
+        },
+        {
+          "problemId": "7e34edd9-1fff-4869-9438-28888913eab1",
+          "drillType": "standard_div",
+          "subType": "div_clean",
+          "problemText": "495 / 5",
+          "correctAnswer": 99,
+          "userAnswer": 99,
+          "correct": true,
+          "timeMs": 2757,
+          "tolerance": 0
+        },
+        {
+          "problemId": "ea4ab329-b726-46d8-a738-848c845ece48",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "5 x 24",
+          "correctAnswer": 120,
+          "userAnswer": 120,
+          "correct": true,
+          "timeMs": 2125,
+          "tolerance": 0
+        },
+        {
+          "problemId": "34f67f11-a8fc-42da-bfa6-9d2efd0acb44",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "90 - 51",
+          "correctAnswer": 39,
+          "userAnswer": 39,
+          "correct": true,
+          "timeMs": 2075,
           "tolerance": 0
         }
       ]
