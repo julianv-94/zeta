@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-07T17:25:10.409Z",
+  "updatedAt": "2026-05-07T17:30:48.903Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -3039,6 +3039,75 @@
           "userAnswer": 204,
           "correct": true,
           "timeMs": 33126,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "roundId": "17cc2dfd-db58-405b-95d2-0ed4d75c3578",
+      "startedAt": "2026-05-07T17:25:14.804Z",
+      "endedAt": "2026-05-07T17:25:32.708Z",
+      "mode": "custom",
+      "subMode": "mult_table",
+      "durationSec": 60,
+      "aborted": true,
+      "summary": {
+        "attempted": 1,
+        "correct": 0,
+        "accuracy": 0,
+        "problemsPerMin": 1,
+        "avgTimeMs": 13986
+      },
+      "attempts": [
+        {
+          "problemId": "4320db06-d044-4250-8f99-3657150b6cc0",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "12 x 67",
+          "correctAnswer": 804,
+          "userAnswer": 704,
+          "correct": false,
+          "timeMs": 13986,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "roundId": "69cdabdc-25fe-477d-9067-5c269ad66d53",
+      "startedAt": "2026-05-07T17:30:27.494Z",
+      "endedAt": "2026-05-07T17:30:48.884Z",
+      "mode": "custom",
+      "subMode": "mult_table",
+      "durationSec": 60,
+      "aborted": true,
+      "summary": {
+        "attempted": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "problemsPerMin": 2,
+        "avgTimeMs": 6489
+      },
+      "attempts": [
+        {
+          "problemId": "03f874a0-0c83-472b-8624-48f7f207a3b4",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "3 x 18",
+          "correctAnswer": 54,
+          "userAnswer": 54,
+          "correct": true,
+          "timeMs": 6947,
+          "tolerance": 0
+        },
+        {
+          "problemId": "1ca94062-3f48-4cac-9951-eba589bd93ad",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "4 x 48",
+          "correctAnswer": 192,
+          "userAnswer": 202,
+          "correct": false,
+          "timeMs": 6031,
           "tolerance": 0
         }
       ]
