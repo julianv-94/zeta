@@ -84,34 +84,61 @@ function buildPayload(local) {
   };
 }
 
-async function pull() {
-  const s = settings();
-  const remote = await getRemoteFile(s);
-  if (!remote.exists) {
-    setSyncMeta({ lastSyncedAt: new Date().toISOString(), lastSha: null });
-    return { message: "No remote file yet. Push to create one." };
+const listeners = new Set();
+function emit(state) {
+  for (const fn of listeners) {
+    try { fn(state); } catch (error) { console.warn("Sync listener error:", error); }
   }
-  mergeRemote(remote.content || { rounds: [] });
-  setSyncMeta({ lastSyncedAt: new Date().toISOString(), lastSha: remote.sha });
-  const count = remote.content?.rounds?.length || 0;
-  return { message: `Pulled. Remote had ${count} rounds.` };
+}
+function onState(fn) {
+  listeners.add(fn);
+  return () => listeners.delete(fn);
+}
+
+async function withState(label, work) {
+  emit({ kind: "busy", label });
+  try {
+    const result = await work();
+    emit({ kind: "ok", label: result?.message || "Synced", at: new Date().toISOString() });
+    return result;
+  } catch (error) {
+    emit({ kind: "err", label: error.message || "Sync failed" });
+    throw error;
+  }
+}
+
+async function pull() {
+  return withState("Pulling", async () => {
+    const s = settings();
+    const remote = await getRemoteFile(s);
+    if (!remote.exists) {
+      setSyncMeta({ lastSyncedAt: new Date().toISOString(), lastSha: null });
+      return { message: "No remote yet" };
+    }
+    mergeRemote(remote.content || { rounds: [] });
+    setSyncMeta({ lastSyncedAt: new Date().toISOString(), lastSha: remote.sha });
+    const count = remote.content?.rounds?.length || 0;
+    return { message: `Pulled (${count})` };
+  });
 }
 
 async function push(force = false) {
-  const s = settings();
-  let remote = { exists: false, sha: null, content: null };
-  try { remote = await getRemoteFile(s); } catch (error) {
-    if (error.status !== 404) throw error;
-  }
-  let merged = getData();
-  if (remote.exists && remote.content) {
-    merged = mergeRemote(remote.content);
-  }
-  const payload = buildPayload(merged);
-  const sha = force ? remote.sha : (remote.exists ? remote.sha : null);
-  const newSha = await putRemoteFile(s, payload, sha, `Sync rounds (${payload.rounds.length})`);
-  setSyncMeta({ lastSyncedAt: new Date().toISOString(), lastSha: newSha });
-  return { message: `Pushed ${payload.rounds.length} rounds.` };
+  return withState("Pushing", async () => {
+    const s = settings();
+    let remote = { exists: false, sha: null, content: null };
+    try { remote = await getRemoteFile(s); } catch (error) {
+      if (error.status !== 404) throw error;
+    }
+    let merged = getData();
+    if (remote.exists && remote.content) {
+      merged = mergeRemote(remote.content);
+    }
+    const payload = buildPayload(merged);
+    const sha = force ? remote.sha : (remote.exists ? remote.sha : null);
+    const newSha = await putRemoteFile(s, payload, sha, `Sync rounds (${payload.rounds.length})`);
+    setSyncMeta({ lastSyncedAt: new Date().toISOString(), lastSha: newSha });
+    return { message: `Pushed (${payload.rounds.length})` };
+  });
 }
 
 async function sync({ direction = "both" } = {}) {
@@ -127,5 +154,12 @@ async function autoSync() {
   try { await push(); } catch (error) { console.warn("Auto sync push failed:", error.message); }
 }
 
-window.MMTSync = { sync, pull, push, autoSync };
+function currentState() {
+  const sync = getData().settings.sync || {};
+  if (!sync.enabled || !sync.token || !sync.repo) return { kind: "off", label: "off" };
+  if (sync.lastSyncedAt) return { kind: "ok", label: "synced", at: sync.lastSyncedAt };
+  return { kind: "idle", label: "idle" };
+}
+
+window.MMTSync = { sync, pull, push, autoSync, onState, currentState };
 })();

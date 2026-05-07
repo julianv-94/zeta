@@ -192,6 +192,7 @@ function renderSettings(host, data) {
     };
     window.MMTStorage.setSyncMeta(next);
     setSyncStatus("Saved.", "ok");
+    if (window.MMTSync) applySyncIndicator(window.MMTSync.currentState());
     if (next.enabled) runSync({ direction: "pull" });
   });
   host.querySelector("#syncPullNow").addEventListener("click", () => runSync({ direction: "pull" }));
@@ -427,6 +428,41 @@ document.querySelectorAll(".tabs button").forEach((button) => {
     location.hash = `#${button.dataset.tab}`;
   });
 });
+
+function applySyncIndicator(state) {
+  const el = document.querySelector("#syncIndicator");
+  const label = document.querySelector("#syncLabel");
+  if (!el || !label) return;
+  el.classList.remove("ok", "err", "busy");
+  let text = state.label || "";
+  let title = "";
+  if (state.kind === "off") {
+    text = "off";
+    title = "Cloud sync is disabled. Configure it under Train > Cloud sync.";
+  } else if (state.kind === "busy") {
+    el.classList.add("busy");
+    text = state.label || "syncing";
+    title = "Syncing with GitHub...";
+  } else if (state.kind === "ok") {
+    el.classList.add("ok");
+    text = "synced";
+    title = state.at ? `Last synced ${new Date(state.at).toLocaleString()}` : "Synced";
+  } else if (state.kind === "err") {
+    el.classList.add("err");
+    text = "error";
+    title = state.label || "Sync error";
+  } else if (state.kind === "idle") {
+    text = "idle";
+    title = "Sync enabled, waiting for first sync.";
+  }
+  label.textContent = text;
+  el.setAttribute("title", title);
+}
+
+if (window.MMTSync) {
+  applySyncIndicator(window.MMTSync.currentState());
+  window.MMTSync.onState(applySyncIndicator);
+}
 
 window.addEventListener("hashchange", route);
 roots.progress.addEventListener("change", (event) => {

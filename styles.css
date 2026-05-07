@@ -453,6 +453,48 @@ th {
   color: var(--danger);
 }
 
+.sync-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 10px;
+  font-size: 0.78rem;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  height: 38px;
+  cursor: default;
+  user-select: none;
+}
+
+.sync-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--faint);
+  transition: background 200ms ease, box-shadow 200ms ease;
+}
+
+.sync-indicator.ok .sync-dot {
+  background: var(--good);
+  box-shadow: 0 0 0 3px rgba(88, 199, 131, 0.18);
+}
+
+.sync-indicator.err .sync-dot {
+  background: var(--danger);
+  box-shadow: 0 0 0 3px rgba(243, 109, 109, 0.18);
+}
+
+.sync-indicator.busy .sync-dot {
+  background: var(--accent-2);
+  animation: sync-pulse 1s ease-in-out infinite;
+}
+
+@keyframes sync-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
 .wrong {
   color: #ffb0b0;
 }
