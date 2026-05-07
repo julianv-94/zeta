@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Mental Math Trainer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <div id="storageWarning" class="warning hidden" role="status"></div>
+
+    <header class="app-header" id="appHeader">
+      <div>
+        <h1>Mental Math Trainer</h1>
+        <p>Local drills for speed, accuracy, and weakness tracking.</p>
+      </div>
+      <nav class="tabs" aria-label="Primary">
+        <button type="button" data-tab="train">Train</button>
+        <button type="button" data-tab="history">History</button>
+        <button type="button" data-tab="progress">Progress</button>
+        <button type="button" data-tab="weaknesses">Weaknesses</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="train" class="tab-panel">
+        <div id="trainRoot"></div>
+      </section>
+
+      <section id="history" class="tab-panel hidden">
+        <div id="historyRoot"></div>
+      </section>
+
+      <section id="progress" class="tab-panel hidden">
+        <div id="progressRoot"></div>
+      </section>
+
+      <section id="weaknesses" class="tab-panel hidden">
+        <div id="weaknessRoot"></div>
+      </section>
+    </main>
+
+    <script src="js/problems.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/sync.js"></script>
+    <script src="js/analytics.js"></script>
+    <script src="js/viz.js"></script>
+    <script src="js/drill.js"></script>
+    <script src="js/weaknesses.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
