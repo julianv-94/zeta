@@ -249,11 +249,14 @@ function startRound(config) {
 }
 
 function startFocusedRound(subType) {
+  const settings = getData().settings;
   startRound({
     mode: "custom",
     subMode: subType,
     focusedSubType: subType,
     durationSec: 60,
+    autoAdvance: !!settings.autoAdvance,
+    showAnswerCorner: !!settings.showAnswerCorner,
     returnHash: "#weaknesses"
   });
 }
