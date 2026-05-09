@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-09T15:58:16.434Z",
+  "updatedAt": "2026-05-09T16:00:17.642Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -11866,6 +11866,35 @@
           "userAnswer": 168,
           "correct": true,
           "timeMs": 7919,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "roundId": "981e31d3-6f1f-4c88-bee7-ed2d4db8ebe8",
+      "startedAt": "2026-05-09T15:58:41.262Z",
+      "endedAt": "2026-05-09T16:00:17.129Z",
+      "mode": "evening",
+      "subMode": "squares_roots",
+      "durationSec": 180,
+      "aborted": true,
+      "summary": {
+        "attempted": 1,
+        "correct": 1,
+        "accuracy": 1,
+        "problemsPerMin": 0.3333333333333333,
+        "avgTimeMs": 87851
+      },
+      "attempts": [
+        {
+          "problemId": "9e605f2c-9e9c-4564-a310-ac3548661ed5",
+          "drillType": "squares_roots",
+          "subType": "square_exact",
+          "problemText": "52^2",
+          "correctAnswer": 2704,
+          "userAnswer": 2704,
+          "correct": true,
+          "timeMs": 87851,
           "tolerance": 0
         }
       ]
