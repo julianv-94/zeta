@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-09T16:59:57.229Z",
+  "updatedAt": "2026-05-09T17:04:24.189Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -16455,6 +16455,86 @@
           "userAnswer": 55,
           "correct": true,
           "timeMs": 7995,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "roundId": "473e0445-86f0-4c79-8fcc-710936f1c767",
+      "startedAt": "2026-05-09T16:59:57.545Z",
+      "endedAt": "2026-05-09T17:00:26.777Z",
+      "mode": "morning",
+      "subMode": "standard",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 1,
+        "correct": 1,
+        "accuracy": 1,
+        "problemsPerMin": 0.5,
+        "avgTimeMs": 3088
+      },
+      "attempts": [
+        {
+          "problemId": "9472a855-941c-4628-b509-871f0c8822b3",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "11 x 25",
+          "correctAnswer": 275,
+          "userAnswer": 275,
+          "correct": true,
+          "timeMs": 3088,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "roundId": "6409b27d-cba6-4c73-975f-2afc906f4131",
+      "startedAt": "2026-05-09T17:04:05.216Z",
+      "endedAt": "2026-05-09T17:04:23.664Z",
+      "mode": "morning",
+      "subMode": "standard",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 3,
+        "correct": 3,
+        "accuracy": 1,
+        "problemsPerMin": 1.5,
+        "avgTimeMs": 4812
+      },
+      "attempts": [
+        {
+          "problemId": "834b6c1d-2173-4aea-97a8-05dc060b820c",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "46 + 65",
+          "correctAnswer": 111,
+          "userAnswer": 111,
+          "correct": true,
+          "timeMs": 2519,
+          "tolerance": 0
+        },
+        {
+          "problemId": "997c2a84-ad75-4241-8901-f6e6083512e8",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "6 x 48",
+          "correctAnswer": 288,
+          "userAnswer": 288,
+          "correct": true,
+          "timeMs": 3941,
+          "tolerance": 0
+        },
+        {
+          "problemId": "8aaf9afc-258e-41d8-8a50-fca355a819fa",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "8 x 15",
+          "correctAnswer": 120,
+          "userAnswer": 120,
+          "correct": true,
+          "timeMs": 7976,
           "tolerance": 0
         }
       ]
