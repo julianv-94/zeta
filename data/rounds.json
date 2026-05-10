@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-10T23:09:20.604Z",
+  "updatedAt": "2026-05-10T23:26:56.311Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -39692,6 +39692,184 @@
           "userAnswer": 546,
           "correct": true,
           "timeMs": 7293,
+          "tolerance": 5
+        }
+      ]
+    },
+    {
+      "roundId": "d3db3242-b366-4385-8cb7-98970548cd2d",
+      "startedAt": "2026-05-10T23:09:31.470Z",
+      "endedAt": "2026-05-10T23:09:34.771Z",
+      "mode": "afternoon",
+      "subMode": "percentages",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 0,
+        "correct": 0,
+        "accuracy": 0,
+        "problemsPerMin": 0,
+        "avgTimeMs": 0
+      },
+      "attempts": []
+    },
+    {
+      "roundId": "fc0df12e-d830-4314-b1f1-c04debc6abbf",
+      "startedAt": "2026-05-10T23:09:40.925Z",
+      "endedAt": "2026-05-10T23:26:56.100Z",
+      "mode": "afternoon",
+      "subMode": "percentages",
+      "durationSec": 1000,
+      "aborted": true,
+      "summary": {
+        "attempted": 13,
+        "correct": 13,
+        "accuracy": 1,
+        "problemsPerMin": 0.7799999999999999,
+        "avgTimeMs": 48702.307692307695
+      },
+      "attempts": [
+        {
+          "problemId": "d2b14521-55e7-4963-a7f9-7ba89c858553",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 3396 of 4589?",
+          "correctAnswer": 74,
+          "userAnswer": 74,
+          "correct": true,
+          "timeMs": 47236,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "25d5f9ee-66e1-4966-a288-587e4b976a9f",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 1205 of 4633?",
+          "correctAnswer": 26,
+          "userAnswer": 26,
+          "correct": true,
+          "timeMs": 112820,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "5ed13bc3-e08e-43d7-b687-3777790431d9",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "20% of 8582",
+          "correctAnswer": 1716,
+          "userAnswer": 1720,
+          "correct": true,
+          "timeMs": 24899,
+          "tolerance": 5
+        },
+        {
+          "problemId": "dc4ae98e-eeb8-49d1-8b73-40c334de855c",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 3550 of 6455?",
+          "correctAnswer": 55,
+          "userAnswer": 55,
+          "correct": true,
+          "timeMs": 6852,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "60e898d7-ad62-4f58-a1f4-988c334f1300",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "34% of 5563",
+          "correctAnswer": 1891,
+          "userAnswer": 1891,
+          "correct": true,
+          "timeMs": 193066,
+          "tolerance": 5
+        },
+        {
+          "problemId": "8a5b3732-8396-47d4-b151-6dfc26bd0b09",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "31% of 1140",
+          "correctAnswer": 353,
+          "userAnswer": 353,
+          "correct": true,
+          "timeMs": 19764,
+          "tolerance": 5
+        },
+        {
+          "problemId": "12bddca6-30f9-4ee7-b03e-2b73dc9bda8d",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 1455 of 2310?",
+          "correctAnswer": 63,
+          "userAnswer": 63,
+          "correct": true,
+          "timeMs": 8627,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "c662c364-e9a9-4748-b0d9-61d44c1fca67",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 2107 of 3454?",
+          "correctAnswer": 61,
+          "userAnswer": 61,
+          "correct": true,
+          "timeMs": 22959,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "eec1beec-3abf-41ed-a7ad-a37c57735dc4",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "24% of 2000",
+          "correctAnswer": 480,
+          "userAnswer": 480,
+          "correct": true,
+          "timeMs": 10934,
+          "tolerance": 5
+        },
+        {
+          "problemId": "a7558984-e0e5-447a-b6a7-67ec6d5ce2bf",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "78% of 8200",
+          "correctAnswer": 6396,
+          "userAnswer": 6394,
+          "correct": true,
+          "timeMs": 89204,
+          "tolerance": 5
+        },
+        {
+          "problemId": "f55fc97d-04e8-4c57-8ae9-1d54e8c2d390",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "20% of 3200",
+          "correctAnswer": 640,
+          "userAnswer": 640,
+          "correct": true,
+          "timeMs": 4605,
+          "tolerance": 5
+        },
+        {
+          "problemId": "fed46901-ffaa-4a69-be5f-28d0c242b382",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 1005 of 8373?",
+          "correctAnswer": 12,
+          "userAnswer": 12,
+          "correct": true,
+          "timeMs": 32060,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "6c675f2b-39a3-44e0-a731-d9aad99669f1",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "31% of 9416",
+          "correctAnswer": 2919,
+          "userAnswer": 2917,
+          "correct": true,
+          "timeMs": 60104,
           "tolerance": 5
         }
       ]
