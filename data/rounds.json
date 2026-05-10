@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-10T02:19:07.960Z",
+  "updatedAt": "2026-05-10T05:10:37.634Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -27944,6 +27944,101 @@
           "correct": true,
           "timeMs": 1522,
           "tolerance": 0
+        }
+      ]
+    },
+    {
+      "roundId": "84eca74a-3405-4013-9476-c14126e4ca69",
+      "startedAt": "2026-05-10T05:08:34.260Z",
+      "endedAt": "2026-05-10T05:10:37.297Z",
+      "mode": "afternoon",
+      "subMode": "percentages",
+      "durationSec": 120,
+      "aborted": false,
+      "summary": {
+        "attempted": 7,
+        "correct": 7,
+        "accuracy": 1,
+        "problemsPerMin": 3.5,
+        "avgTimeMs": 14761.142857142857
+      },
+      "attempts": [
+        {
+          "problemId": "438d772b-46b1-4095-9b50-ee22f1d864db",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "40% of 5400",
+          "correctAnswer": 2160,
+          "userAnswer": 2160,
+          "correct": true,
+          "timeMs": 29113,
+          "tolerance": 5
+        },
+        {
+          "problemId": "27e15594-de2c-4952-89a4-a37f0326cd3e",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "43% of 4900",
+          "correctAnswer": 2107,
+          "userAnswer": 2107,
+          "correct": true,
+          "timeMs": 14257,
+          "tolerance": 5
+        },
+        {
+          "problemId": "80897552-849e-4317-adae-23de8151b32a",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "2% of 9764",
+          "correctAnswer": 195,
+          "userAnswer": 194,
+          "correct": true,
+          "timeMs": 14897,
+          "tolerance": 5
+        },
+        {
+          "problemId": "03b22b78-7fd0-4aac-863e-033fbc394205",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 163 of 8156?",
+          "correctAnswer": 2,
+          "userAnswer": 2,
+          "correct": true,
+          "timeMs": 8034,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "253c94d5-129c-422b-9819-8b42b61e281b",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "85% of 2800",
+          "correctAnswer": 2380,
+          "userAnswer": 2380,
+          "correct": true,
+          "timeMs": 9888,
+          "tolerance": 5
+        },
+        {
+          "problemId": "e328ceb5-ac90-4cfd-8cdd-afc9395a1ba8",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "47% of 441",
+          "correctAnswer": 207,
+          "userAnswer": 207,
+          "correct": true,
+          "timeMs": 7306,
+          "tolerance": 5
+        },
+        {
+          "problemId": "f66da8e6-2eed-4a46-9fdc-e4895f865ecc",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "2% of 8899",
+          "correctAnswer": 178,
+          "userAnswer": 178,
+          "correct": true,
+          "timeMs": 19833,
+          "tolerance": 5
         }
       ]
     }
