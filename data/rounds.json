@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-10T23:08:18.352Z",
+  "updatedAt": "2026-05-10T23:09:20.604Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -39642,6 +39642,57 @@
           "correct": true,
           "timeMs": 28326,
           "tolerance": 0.5
+        }
+      ]
+    },
+    {
+      "roundId": "826f4bcc-01cc-4ec5-bb3a-5bf08f683bfd",
+      "startedAt": "2026-05-10T23:08:24.480Z",
+      "endedAt": "2026-05-10T23:09:20.330Z",
+      "mode": "afternoon",
+      "subMode": "percentages",
+      "durationSec": 1000,
+      "aborted": true,
+      "summary": {
+        "attempted": 3,
+        "correct": 3,
+        "accuracy": 1,
+        "problemsPerMin": 0.18,
+        "avgTimeMs": 17407
+      },
+      "attempts": [
+        {
+          "problemId": "2e698017-0308-47ef-9b6c-33e791bfc7f5",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "16% of 2200",
+          "correctAnswer": 352,
+          "userAnswer": 352,
+          "correct": true,
+          "timeMs": 37165,
+          "tolerance": 5
+        },
+        {
+          "problemId": "1686ed6e-bb02-40cf-bd60-090810738437",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 2105 of 6013?",
+          "correctAnswer": 35,
+          "userAnswer": 35,
+          "correct": true,
+          "timeMs": 7763,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "428d2d66-fca6-43d4-bb1c-660493273c6e",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "21% of 2600",
+          "correctAnswer": 546,
+          "userAnswer": 546,
+          "correct": true,
+          "timeMs": 7293,
+          "tolerance": 5
         }
       ]
     }
