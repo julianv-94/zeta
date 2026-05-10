@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-10T23:37:25.917Z",
+  "updatedAt": "2026-05-10T23:39:30.384Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -40250,6 +40250,101 @@
           "correct": true,
           "timeMs": 21014,
           "tolerance": 5
+        }
+      ]
+    },
+    {
+      "roundId": "dea1b8b4-bf0b-465c-9979-750998377dba",
+      "startedAt": "2026-05-10T23:37:27.070Z",
+      "endedAt": "2026-05-10T23:39:30.104Z",
+      "mode": "afternoon",
+      "subMode": "percentages",
+      "durationSec": 120,
+      "aborted": false,
+      "summary": {
+        "attempted": 7,
+        "correct": 7,
+        "accuracy": 1,
+        "problemsPerMin": 3.5,
+        "avgTimeMs": 13510.142857142857
+      },
+      "attempts": [
+        {
+          "problemId": "8ea9b296-c4b8-4e27-96e6-9e42a203ce18",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "32% of 10000",
+          "correctAnswer": 3200,
+          "userAnswer": 3200,
+          "correct": true,
+          "timeMs": 3012,
+          "tolerance": 5
+        },
+        {
+          "problemId": "25636ed2-56a5-4bed-85d0-42897ada5a34",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "51% of 2100",
+          "correctAnswer": 1071,
+          "userAnswer": 1071,
+          "correct": true,
+          "timeMs": 5728,
+          "tolerance": 5
+        },
+        {
+          "problemId": "99aad462-8906-4ff6-80f1-831296ef047c",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "70% of 8600",
+          "correctAnswer": 6020,
+          "userAnswer": 6020,
+          "correct": true,
+          "timeMs": 33937,
+          "tolerance": 5
+        },
+        {
+          "problemId": "808da3eb-775b-4074-9013-45a650ed213e",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "46% of 222",
+          "correctAnswer": 102,
+          "userAnswer": 103,
+          "correct": true,
+          "timeMs": 9381,
+          "tolerance": 5
+        },
+        {
+          "problemId": "25eaf268-0592-409e-9495-75e7e056055b",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "12% of 2814",
+          "correctAnswer": 338,
+          "userAnswer": 336,
+          "correct": true,
+          "timeMs": 16298,
+          "tolerance": 5
+        },
+        {
+          "problemId": "4709585a-7fcd-44e3-b624-e4d765b21dfe",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "17% of 4300",
+          "correctAnswer": 731,
+          "userAnswer": 730,
+          "correct": true,
+          "timeMs": 18438,
+          "tolerance": 5
+        },
+        {
+          "problemId": "55f95c2f-5c47-4260-a44b-b840d5badf9a",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 3745 of 5945?",
+          "correctAnswer": 63,
+          "userAnswer": 63,
+          "correct": true,
+          "timeMs": 7777,
+          "tolerance": 0.5
         }
       ]
     }
