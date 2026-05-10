@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-10T05:15:58.409Z",
+  "updatedAt": "2026-05-10T05:17:20.211Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -28123,6 +28123,35 @@
           "correct": true,
           "timeMs": 13476,
           "tolerance": 5
+        }
+      ]
+    },
+    {
+      "roundId": "91d2647f-d98a-42ac-967c-d6463c9e3a8b",
+      "startedAt": "2026-05-10T05:15:58.933Z",
+      "endedAt": "2026-05-10T05:17:19.655Z",
+      "mode": "afternoon",
+      "subMode": "percentages",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 1,
+        "correct": 1,
+        "accuracy": 1,
+        "problemsPerMin": 0.5,
+        "avgTimeMs": 4110
+      },
+      "attempts": [
+        {
+          "problemId": "a6117c96-5e30-488d-ad68-1b70dffad3dc",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 134 of 2677?",
+          "correctAnswer": 5,
+          "userAnswer": 5,
+          "correct": true,
+          "timeMs": 4110,
+          "tolerance": 0.5
         }
       ]
     }
