@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-10T23:39:30.384Z",
+  "updatedAt": "2026-05-10T23:41:38.720Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -40345,6 +40345,79 @@
           "correct": true,
           "timeMs": 7777,
           "tolerance": 0.5
+        }
+      ]
+    },
+    {
+      "roundId": "d3df778d-800a-431a-9e30-4c7cea1dd45e",
+      "startedAt": "2026-05-10T23:39:35.370Z",
+      "endedAt": "2026-05-10T23:41:38.389Z",
+      "mode": "afternoon",
+      "subMode": "percentages",
+      "durationSec": 120,
+      "aborted": false,
+      "summary": {
+        "attempted": 5,
+        "correct": 5,
+        "accuracy": 1,
+        "problemsPerMin": 2.5,
+        "avgTimeMs": 20518.4
+      },
+      "attempts": [
+        {
+          "problemId": "0a6dfc49-cd18-44ca-abe7-94a71857af6e",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 5026 of 5777?",
+          "correctAnswer": 87,
+          "userAnswer": 87,
+          "correct": true,
+          "timeMs": 9861,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "aa516617-4950-4747-bb8b-a640dcae3400",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "4% of 6100",
+          "correctAnswer": 244,
+          "userAnswer": 244,
+          "correct": true,
+          "timeMs": 8513,
+          "tolerance": 5
+        },
+        {
+          "problemId": "9b9b749a-ef26-4825-b46d-04c72e2e89b3",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 1771 of 2300?",
+          "correctAnswer": 77,
+          "userAnswer": 77,
+          "correct": true,
+          "timeMs": 40172,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "45c87a36-e39d-4dcc-ab15-35ad6a01e4bb",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "49% of 3800",
+          "correctAnswer": 1862,
+          "userAnswer": 1862,
+          "correct": true,
+          "timeMs": 38263,
+          "tolerance": 5
+        },
+        {
+          "problemId": "a171d06f-1f75-4f9e-91ce-641d2084efba",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "93% of 200",
+          "correctAnswer": 186,
+          "userAnswer": 186,
+          "correct": true,
+          "timeMs": 5783,
+          "tolerance": 5
         }
       ]
     }
