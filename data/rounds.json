@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-10T23:32:18.231Z",
+  "updatedAt": "2026-05-10T23:34:23.455Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -40053,6 +40053,101 @@
           "correct": true,
           "timeMs": 9408,
           "tolerance": 5
+        }
+      ]
+    },
+    {
+      "roundId": "aba18236-b215-45a7-8b51-675e34c9f3d5",
+      "startedAt": "2026-05-10T23:32:20.170Z",
+      "endedAt": "2026-05-10T23:34:23.192Z",
+      "mode": "afternoon",
+      "subMode": "percentages",
+      "durationSec": 120,
+      "aborted": false,
+      "summary": {
+        "attempted": 7,
+        "correct": 7,
+        "accuracy": 1,
+        "problemsPerMin": 3.5,
+        "avgTimeMs": 11514.285714285714
+      },
+      "attempts": [
+        {
+          "problemId": "349762a9-b7e5-4246-9a8a-e5e0af16a0bc",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "63% of 2000",
+          "correctAnswer": 1260,
+          "userAnswer": 1260,
+          "correct": true,
+          "timeMs": 11299,
+          "tolerance": 5
+        },
+        {
+          "problemId": "1fd514b0-6cfa-4212-b20d-4c4d510fd961",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "15% of 4000",
+          "correctAnswer": 600,
+          "userAnswer": 600,
+          "correct": true,
+          "timeMs": 13562,
+          "tolerance": 5
+        },
+        {
+          "problemId": "74726557-0e1f-4eed-a808-ea8236f620f1",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "1% of 100",
+          "correctAnswer": 1,
+          "userAnswer": 1,
+          "correct": true,
+          "timeMs": 1149,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "3ce2f0d4-b566-44ba-ad9f-d28d479b7e4b",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "13% of 665",
+          "correctAnswer": 86.4,
+          "userAnswer": 86,
+          "correct": true,
+          "timeMs": 21246,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "d2b7d630-7b73-47e1-8927-550a62e0ded9",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "25% of 4354",
+          "correctAnswer": 1088,
+          "userAnswer": 1085,
+          "correct": true,
+          "timeMs": 15009,
+          "tolerance": 5
+        },
+        {
+          "problemId": "11c192e3-38a0-4748-9cd7-464f150c6510",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "3% of 1121",
+          "correctAnswer": 33.6,
+          "userAnswer": 34,
+          "correct": true,
+          "timeMs": 7799,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "c3f23830-d3a3-445f-8fd4-823b037b2551",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 4725 of 9642?",
+          "correctAnswer": 49,
+          "userAnswer": 49,
+          "correct": true,
+          "timeMs": 10536,
+          "tolerance": 0.5
         }
       ]
     }
