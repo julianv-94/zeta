@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-10T23:06:30.501Z",
+  "updatedAt": "2026-05-10T23:08:18.352Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -39529,6 +39529,119 @@
           "correct": true,
           "timeMs": 1213,
           "tolerance": 0
+        }
+      ]
+    },
+    {
+      "roundId": "057dcfbe-8f6b-465d-9acf-f091bab915d1",
+      "startedAt": "2026-05-10T23:06:32.558Z",
+      "endedAt": "2026-05-10T23:06:45.909Z",
+      "mode": "morning",
+      "subMode": "standard",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 3,
+        "correct": 3,
+        "accuracy": 1,
+        "problemsPerMin": 1.5,
+        "avgTimeMs": 3016.6666666666665
+      },
+      "attempts": [
+        {
+          "problemId": "939c7895-390d-44e9-a252-82bf89077075",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "4 x 37",
+          "correctAnswer": 148,
+          "userAnswer": 148,
+          "correct": true,
+          "timeMs": 3852,
+          "tolerance": 0
+        },
+        {
+          "problemId": "04bfa7f8-d584-4644-ac60-40a9e107e8b5",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "59 + 15",
+          "correctAnswer": 74,
+          "userAnswer": 74,
+          "correct": true,
+          "timeMs": 2213,
+          "tolerance": 0
+        },
+        {
+          "problemId": "8e5f32e6-98c7-4d11-98da-ff1f5fda883e",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "145 - 56",
+          "correctAnswer": 89,
+          "userAnswer": 89,
+          "correct": true,
+          "timeMs": 2985,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "roundId": "eb55ce6b-2d1e-4257-a5a7-b170c343d38f",
+      "startedAt": "2026-05-10T23:07:09.249Z",
+      "endedAt": "2026-05-10T23:08:18.023Z",
+      "mode": "afternoon",
+      "subMode": "percentages",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 4,
+        "correct": 4,
+        "accuracy": 1,
+        "problemsPerMin": 2,
+        "avgTimeMs": 15711.75
+      },
+      "attempts": [
+        {
+          "problemId": "4bb4608f-4718-4f58-90f0-7f40febb0cdf",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "79% of 700",
+          "correctAnswer": 553,
+          "userAnswer": 553,
+          "correct": true,
+          "timeMs": 2425,
+          "tolerance": 5
+        },
+        {
+          "problemId": "cd17224a-520f-45a5-9f65-eb99e0e19d7a",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 2981 of 3312?",
+          "correctAnswer": 90,
+          "userAnswer": 90,
+          "correct": true,
+          "timeMs": 9293,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "2f156850-acbd-4384-b53c-770766ef1df4",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 1408 of 7408?",
+          "correctAnswer": 19,
+          "userAnswer": 19,
+          "correct": true,
+          "timeMs": 22803,
+          "tolerance": 0.5
+        },
+        {
+          "problemId": "cf775be9-5644-4104-9782-f9a05ab84273",
+          "drillType": "percentage",
+          "subType": "pct_reverse",
+          "problemText": "What % is 343 of 365?",
+          "correctAnswer": 94,
+          "userAnswer": 94,
+          "correct": true,
+          "timeMs": 28326,
+          "tolerance": 0.5
         }
       ]
     }
