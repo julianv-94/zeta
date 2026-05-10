@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-10T23:26:56.311Z",
+  "updatedAt": "2026-05-10T23:28:25.200Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -39870,6 +39870,75 @@
           "userAnswer": 2917,
           "correct": true,
           "timeMs": 60104,
+          "tolerance": 5
+        }
+      ]
+    },
+    {
+      "roundId": "e5f397d4-9503-4eaa-9a02-36d3706aa1d7",
+      "startedAt": "2026-05-10T23:26:57.270Z",
+      "endedAt": "2026-05-10T23:27:30.891Z",
+      "mode": "afternoon",
+      "subMode": "percentages",
+      "durationSec": 1000,
+      "aborted": true,
+      "summary": {
+        "attempted": 1,
+        "correct": 1,
+        "accuracy": 1,
+        "problemsPerMin": 0.06,
+        "avgTimeMs": 24493
+      },
+      "attempts": [
+        {
+          "problemId": "68ec797d-e2dd-491a-8917-7afdf9c6cd8f",
+          "drillType": "percentage",
+          "subType": "pct_clean",
+          "problemText": "26% of 5100",
+          "correctAnswer": 1326,
+          "userAnswer": 1325,
+          "correct": true,
+          "timeMs": 24493,
+          "tolerance": 5
+        }
+      ]
+    },
+    {
+      "roundId": "735cb442-6f44-4527-96f7-2efcaeda4d24",
+      "startedAt": "2026-05-10T23:27:36.491Z",
+      "endedAt": "2026-05-10T23:28:24.945Z",
+      "mode": "afternoon",
+      "subMode": "percentages",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 2,
+        "correct": 2,
+        "accuracy": 1,
+        "problemsPerMin": 1,
+        "avgTimeMs": 18963.5
+      },
+      "attempts": [
+        {
+          "problemId": "45cfb215-76b1-4d3c-92cc-55709ee7b5fd",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "6% of 5623",
+          "correctAnswer": 337,
+          "userAnswer": 336,
+          "correct": true,
+          "timeMs": 11608,
+          "tolerance": 5
+        },
+        {
+          "problemId": "ba9ece0d-ce5a-4b85-86b8-a91ba1f0de68",
+          "drillType": "percentage",
+          "subType": "pct_messy",
+          "problemText": "33% of 4400",
+          "correctAnswer": 1452,
+          "userAnswer": 1450,
+          "correct": true,
+          "timeMs": 26319,
           "tolerance": 5
         }
       ]
