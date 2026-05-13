@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-13T15:43:25.050Z",
+  "updatedAt": "2026-05-13T15:45:55.240Z",
   "rounds": [
     {
       "roundId": "ed519811-2973-4225-811d-485703b40ea0",
@@ -63910,6 +63910,564 @@
           "userAnswer": 44,
           "correct": true,
           "timeMs": 7039,
+          "tolerance": 0
+        }
+      ]
+    },
+    {
+      "roundId": "5f5a0464-3204-4858-88fc-e15b28ae1c54",
+      "startedAt": "2026-05-13T15:43:30.288Z",
+      "endedAt": "2026-05-13T15:43:35.924Z",
+      "mode": "morning",
+      "subMode": "standard",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 0,
+        "correct": 0,
+        "accuracy": 0,
+        "problemsPerMin": 0,
+        "avgTimeMs": 0
+      },
+      "attempts": []
+    },
+    {
+      "roundId": "f769645d-3b97-47f4-8529-dc8311f66b44",
+      "startedAt": "2026-05-13T15:43:41.472Z",
+      "endedAt": "2026-05-13T15:43:51.059Z",
+      "mode": "morning",
+      "subMode": "standard",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 0,
+        "correct": 0,
+        "accuracy": 0,
+        "problemsPerMin": 0,
+        "avgTimeMs": 0
+      },
+      "attempts": []
+    },
+    {
+      "roundId": "4c44fff2-8e6b-40f0-9180-b54cfc26875f",
+      "startedAt": "2026-05-13T15:43:51.868Z",
+      "endedAt": "2026-05-13T15:45:54.873Z",
+      "mode": "morning",
+      "subMode": "standard",
+      "durationSec": 120,
+      "aborted": false,
+      "summary": {
+        "attempted": 46,
+        "correct": 46,
+        "accuracy": 1,
+        "problemsPerMin": 23,
+        "avgTimeMs": 2596.717391304348
+      },
+      "attempts": [
+        {
+          "problemId": "ce184b36-9c5a-4979-8677-029ded0698f5",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "6 x 4",
+          "correctAnswer": 24,
+          "userAnswer": 24,
+          "correct": true,
+          "timeMs": 1110,
+          "tolerance": 0
+        },
+        {
+          "problemId": "5e8f2832-ea6c-4fbb-90af-37d6829db5f1",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "10 x 94",
+          "correctAnswer": 940,
+          "userAnswer": 940,
+          "correct": true,
+          "timeMs": 1353,
+          "tolerance": 0
+        },
+        {
+          "problemId": "c23b5807-6bb4-47d4-a08d-b5101ac1549f",
+          "drillType": "standard_div",
+          "subType": "div_hard",
+          "problemText": "1034 / 11",
+          "correctAnswer": 94,
+          "userAnswer": 94,
+          "correct": true,
+          "timeMs": 1716,
+          "tolerance": 0
+        },
+        {
+          "problemId": "79dff0bb-fce4-4a27-84c6-08db39fbe622",
+          "drillType": "standard_div",
+          "subType": "div_clean",
+          "problemText": "396 / 4",
+          "correctAnswer": 99,
+          "userAnswer": 99,
+          "correct": true,
+          "timeMs": 3855,
+          "tolerance": 0
+        },
+        {
+          "problemId": "15ba2528-9552-47e9-8ba5-fbccfbe3ab8a",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "3 x 72",
+          "correctAnswer": 216,
+          "userAnswer": 216,
+          "correct": true,
+          "timeMs": 2426,
+          "tolerance": 0
+        },
+        {
+          "problemId": "130a7150-efe0-4542-8648-2d98d2c3a3d8",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "80 - 7",
+          "correctAnswer": 73,
+          "userAnswer": 73,
+          "correct": true,
+          "timeMs": 1273,
+          "tolerance": 0
+        },
+        {
+          "problemId": "f9211d75-ec9a-4745-ac72-5e722bdc76ca",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "67 + 72",
+          "correctAnswer": 139,
+          "userAnswer": 139,
+          "correct": true,
+          "timeMs": 1282,
+          "tolerance": 0
+        },
+        {
+          "problemId": "0de08dd2-74dc-4a39-b418-3646d0e11742",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "107 - 31",
+          "correctAnswer": 76,
+          "userAnswer": 76,
+          "correct": true,
+          "timeMs": 2008,
+          "tolerance": 0
+        },
+        {
+          "problemId": "52530cff-2656-4ddf-988c-fc6510ac0ddb",
+          "drillType": "standard_add",
+          "subType": "add_small",
+          "problemText": "10 + 28",
+          "correctAnswer": 38,
+          "userAnswer": 38,
+          "correct": true,
+          "timeMs": 1559,
+          "tolerance": 0
+        },
+        {
+          "problemId": "d2700f3c-4f41-4a6d-be3f-33fa8bffad1a",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "23 + 60",
+          "correctAnswer": 83,
+          "userAnswer": 83,
+          "correct": true,
+          "timeMs": 1220,
+          "tolerance": 0
+        },
+        {
+          "problemId": "2b0acb65-4bf6-4dbf-8883-a2ea86f5b370",
+          "drillType": "standard_sub",
+          "subType": "sub_small",
+          "problemText": "37 - 27",
+          "correctAnswer": 10,
+          "userAnswer": 10,
+          "correct": true,
+          "timeMs": 936,
+          "tolerance": 0
+        },
+        {
+          "problemId": "c5f97cf1-34e0-43db-933f-db6dc7e84f52",
+          "drillType": "standard_sub",
+          "subType": "sub_small",
+          "problemText": "13 - 11",
+          "correctAnswer": 2,
+          "userAnswer": 2,
+          "correct": true,
+          "timeMs": 1274,
+          "tolerance": 0
+        },
+        {
+          "problemId": "e1055387-80fb-4c82-9d94-0d475b8a506c",
+          "drillType": "standard_div",
+          "subType": "div_clean",
+          "problemText": "188 / 4",
+          "correctAnswer": 47,
+          "userAnswer": 47,
+          "correct": true,
+          "timeMs": 3791,
+          "tolerance": 0
+        },
+        {
+          "problemId": "b51db2ae-d845-48ca-b7b3-78f312185888",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "7 x 16",
+          "correctAnswer": 112,
+          "userAnswer": 112,
+          "correct": true,
+          "timeMs": 5015,
+          "tolerance": 0
+        },
+        {
+          "problemId": "55cf2d3c-09ec-4157-bd3d-fd6bc31efb23",
+          "drillType": "standard_sub",
+          "subType": "sub_small",
+          "problemText": "76 - 28",
+          "correctAnswer": 48,
+          "userAnswer": 48,
+          "correct": true,
+          "timeMs": 2736,
+          "tolerance": 0
+        },
+        {
+          "problemId": "3de81dba-08a8-43e9-9e4d-e3bbd7a026d6",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "97 - 66",
+          "correctAnswer": 31,
+          "userAnswer": 31,
+          "correct": true,
+          "timeMs": 2404,
+          "tolerance": 0
+        },
+        {
+          "problemId": "1e2314a3-011f-45d1-9ac8-008f1bbb8db0",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "12 x 23",
+          "correctAnswer": 276,
+          "userAnswer": 276,
+          "correct": true,
+          "timeMs": 2845,
+          "tolerance": 0
+        },
+        {
+          "problemId": "cb165148-fdb3-4ae9-8fe6-beba3bb2fefa",
+          "drillType": "standard_div",
+          "subType": "div_hard",
+          "problemText": "70 / 10",
+          "correctAnswer": 7,
+          "userAnswer": 7,
+          "correct": true,
+          "timeMs": 1060,
+          "tolerance": 0
+        },
+        {
+          "problemId": "9039c7ee-6029-4f00-890b-be52087a2d42",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "90 + 21",
+          "correctAnswer": 111,
+          "userAnswer": 111,
+          "correct": true,
+          "timeMs": 1621,
+          "tolerance": 0
+        },
+        {
+          "problemId": "eee14c1e-ceec-4104-8170-f2e30587be58",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "134 - 81",
+          "correctAnswer": 53,
+          "userAnswer": 53,
+          "correct": true,
+          "timeMs": 2580,
+          "tolerance": 0
+        },
+        {
+          "problemId": "76435140-c61a-4c6f-bafe-5c62deca4f73",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "149 - 59",
+          "correctAnswer": 90,
+          "userAnswer": 90,
+          "correct": true,
+          "timeMs": 1533,
+          "tolerance": 0
+        },
+        {
+          "problemId": "3ce06b50-4daa-451d-88da-022980d5e07c",
+          "drillType": "standard_div",
+          "subType": "div_hard",
+          "problemText": "33 / 11",
+          "correctAnswer": 3,
+          "userAnswer": 3,
+          "correct": true,
+          "timeMs": 858,
+          "tolerance": 0
+        },
+        {
+          "problemId": "d318c249-184f-43a5-b9bd-b5824ea85e75",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "6 x 75",
+          "correctAnswer": 450,
+          "userAnswer": 450,
+          "correct": true,
+          "timeMs": 4046,
+          "tolerance": 0
+        },
+        {
+          "problemId": "9c934304-0606-4ecd-8992-848a2f9a3174",
+          "drillType": "standard_sub",
+          "subType": "sub_small",
+          "problemText": "62 - 49",
+          "correctAnswer": 13,
+          "userAnswer": 13,
+          "correct": true,
+          "timeMs": 5566,
+          "tolerance": 0
+        },
+        {
+          "problemId": "856a1319-483d-4a73-b57a-a8d8985ada40",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "10 x 67",
+          "correctAnswer": 670,
+          "userAnswer": 670,
+          "correct": true,
+          "timeMs": 1431,
+          "tolerance": 0
+        },
+        {
+          "problemId": "5043a913-007b-4a3d-af09-815bd5a96248",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "32 + 50",
+          "correctAnswer": 82,
+          "userAnswer": 82,
+          "correct": true,
+          "timeMs": 2218,
+          "tolerance": 0
+        },
+        {
+          "problemId": "083f6b02-86aa-4eb6-9d52-c3407dc38c25",
+          "drillType": "standard_sub",
+          "subType": "sub_small",
+          "problemText": "51 - 27",
+          "correctAnswer": 24,
+          "userAnswer": 24,
+          "correct": true,
+          "timeMs": 5505,
+          "tolerance": 0
+        },
+        {
+          "problemId": "bf245ba7-efc6-486d-aee6-882227d3a493",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "119 - 33",
+          "correctAnswer": 86,
+          "userAnswer": 86,
+          "correct": true,
+          "timeMs": 4868,
+          "tolerance": 0
+        },
+        {
+          "problemId": "3022ca98-a000-4eb4-b6cf-ff51126ec1c5",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "11 x 28",
+          "correctAnswer": 308,
+          "userAnswer": 308,
+          "correct": true,
+          "timeMs": 4301,
+          "tolerance": 0
+        },
+        {
+          "problemId": "f0ff9b67-47f3-47cc-aae3-5dcb9f86cb86",
+          "drillType": "standard_mult",
+          "subType": "mult_table",
+          "problemText": "7 x 25",
+          "correctAnswer": 175,
+          "userAnswer": 175,
+          "correct": true,
+          "timeMs": 2701,
+          "tolerance": 0
+        },
+        {
+          "problemId": "003b00fc-b9ad-4d4e-b047-8b40463badcc",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "24 + 71",
+          "correctAnswer": 95,
+          "userAnswer": 95,
+          "correct": true,
+          "timeMs": 1400,
+          "tolerance": 0
+        },
+        {
+          "problemId": "fa551830-eb5b-47d4-8dfe-124ae52c5faa",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "56 + 39",
+          "correctAnswer": 95,
+          "userAnswer": 95,
+          "correct": true,
+          "timeMs": 2031,
+          "tolerance": 0
+        },
+        {
+          "problemId": "dbcab491-daa8-44c7-9ef6-09bc2375cf0c",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "53 + 14",
+          "correctAnswer": 67,
+          "userAnswer": 67,
+          "correct": true,
+          "timeMs": 2104,
+          "tolerance": 0
+        },
+        {
+          "problemId": "c624a9e5-3d52-4f1f-bc88-e26543135308",
+          "drillType": "standard_add",
+          "subType": "add_small",
+          "problemText": "27 + 31",
+          "correctAnswer": 58,
+          "userAnswer": 58,
+          "correct": true,
+          "timeMs": 1760,
+          "tolerance": 0
+        },
+        {
+          "problemId": "028c7fe5-59ed-4c76-a702-ea544b991916",
+          "drillType": "standard_sub",
+          "subType": "sub_small",
+          "problemText": "30 - 22",
+          "correctAnswer": 8,
+          "userAnswer": 8,
+          "correct": true,
+          "timeMs": 1250,
+          "tolerance": 0
+        },
+        {
+          "problemId": "5a6015c9-921e-4381-ba23-75eebce7c956",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "131 - 89",
+          "correctAnswer": 42,
+          "userAnswer": 42,
+          "correct": true,
+          "timeMs": 6660,
+          "tolerance": 0
+        },
+        {
+          "problemId": "964b449c-4fd9-4e5b-b90a-5c717f465ea6",
+          "drillType": "standard_div",
+          "subType": "div_clean",
+          "problemText": "20 / 5",
+          "correctAnswer": 4,
+          "userAnswer": 4,
+          "correct": true,
+          "timeMs": 2341,
+          "tolerance": 0
+        },
+        {
+          "problemId": "fe3c7377-17c5-4123-a9b6-cc76a7ecb17d",
+          "drillType": "standard_div",
+          "subType": "div_clean",
+          "problemText": "146 / 2",
+          "correctAnswer": 73,
+          "userAnswer": 73,
+          "correct": true,
+          "timeMs": 8728,
+          "tolerance": 0
+        },
+        {
+          "problemId": "588cb2f6-c43e-4196-a36d-9ac6d9c405fc",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "99 + 18",
+          "correctAnswer": 117,
+          "userAnswer": 117,
+          "correct": true,
+          "timeMs": 1609,
+          "tolerance": 0
+        },
+        {
+          "problemId": "b0dee64c-007d-4152-add1-2bca58954990",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "61 - 52",
+          "correctAnswer": 9,
+          "userAnswer": 9,
+          "correct": true,
+          "timeMs": 1524,
+          "tolerance": 0
+        },
+        {
+          "problemId": "b20d7f10-d56d-4580-86f8-d2d5a274d1e0",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "120 - 99",
+          "correctAnswer": 21,
+          "userAnswer": 21,
+          "correct": true,
+          "timeMs": 1748,
+          "tolerance": 0
+        },
+        {
+          "problemId": "cfcef3e4-d250-4d22-8b82-a0e4ba653478",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "88 + 5",
+          "correctAnswer": 93,
+          "userAnswer": 93,
+          "correct": true,
+          "timeMs": 1532,
+          "tolerance": 0
+        },
+        {
+          "problemId": "786bbec5-7d39-45b9-af80-65bc42654675",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "40 + 65",
+          "correctAnswer": 105,
+          "userAnswer": 105,
+          "correct": true,
+          "timeMs": 1235,
+          "tolerance": 0
+        },
+        {
+          "problemId": "d046542d-2062-42b7-a3bb-a71e57f55b19",
+          "drillType": "standard_add",
+          "subType": "add_large",
+          "problemText": "80 + 60",
+          "correctAnswer": 140,
+          "userAnswer": 140,
+          "correct": true,
+          "timeMs": 1280,
+          "tolerance": 0
+        },
+        {
+          "problemId": "44ce2af9-d647-4d92-9b91-9fe8f1e709ed",
+          "drillType": "standard_add",
+          "subType": "add_small",
+          "problemText": "31 + 19",
+          "correctAnswer": 50,
+          "userAnswer": 50,
+          "correct": true,
+          "timeMs": 6363,
+          "tolerance": 0
+        },
+        {
+          "problemId": "dcff049a-4892-43ff-aa6f-44f5a674093e",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "84 - 21",
+          "correctAnswer": 63,
+          "userAnswer": 63,
+          "correct": true,
+          "timeMs": 2793,
           "tolerance": 0
         }
       ]
