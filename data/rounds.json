@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-18T22:13:41.920Z",
+  "updatedAt": "2026-05-18T22:15:56.173Z",
   "rounds": [
     {
       "roundId": "28ca0ce8-cc41-4d90-ada1-f28739ef3045",
@@ -38193,6 +38193,23 @@
           "tolerance": 0
         }
       ]
+    },
+    {
+      "roundId": "ffbbb43e-15d2-41df-8249-25874beca203",
+      "startedAt": "2026-05-18T22:15:30.832Z",
+      "endedAt": "2026-05-18T22:15:55.507Z",
+      "mode": "morning",
+      "subMode": "standard",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 0,
+        "correct": 0,
+        "accuracy": 0,
+        "problemsPerMin": 0,
+        "avgTimeMs": 0
+      },
+      "attempts": []
     }
   ]
 }
