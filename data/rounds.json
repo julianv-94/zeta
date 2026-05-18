@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-05-18T21:54:19.018Z",
+  "updatedAt": "2026-05-18T21:55:59.513Z",
   "rounds": [
     {
       "roundId": "28ca0ce8-cc41-4d90-ada1-f28739ef3045",
@@ -36162,6 +36162,35 @@
         "avgTimeMs": 0
       },
       "attempts": []
+    },
+    {
+      "roundId": "d0cf93db-0f38-4729-be54-f501812dd9f3",
+      "startedAt": "2026-05-18T21:55:52.127Z",
+      "endedAt": "2026-05-18T21:55:58.969Z",
+      "mode": "morning",
+      "subMode": "standard",
+      "durationSec": 120,
+      "aborted": true,
+      "summary": {
+        "attempted": 1,
+        "correct": 1,
+        "accuracy": 1,
+        "problemsPerMin": 0.5,
+        "avgTimeMs": 3564
+      },
+      "attempts": [
+        {
+          "problemId": "24505c99-c0d2-4248-b1df-06813769d7ee",
+          "drillType": "standard_sub",
+          "subType": "sub_large",
+          "problemText": "72 - 6",
+          "correctAnswer": 66,
+          "userAnswer": 66,
+          "correct": true,
+          "timeMs": 3564,
+          "tolerance": 0
+        }
+      ]
     }
   ]
 }
